@@ -1,0 +1,160 @@
+body{
+    background-color: rgb(203, 148, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center; /*centralizar cabeçalho*/
+    padding-top: 0px;
+}
+
+*{margin:0;
+    padding: 0px;
+    } 
+    
+    hr{
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset; 
+        border-width: 1px; 
+        border-color: rgb(255, 4, 242); 
+    }
+    
+    header img{ /*definições da imagem que estão dentro do cabeçalho*/
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+    }
+    
+    header h1{/*Defições do titulo que estão dentro do cabeçalho*/
+        color:rgb(8, 2, 9);
+        -webkit-text-stroke: 2px rgb(215, 27, 162);
+        padding-top: center; 
+    }
+    #menu ul{/*id para lista*/
+        list-style: none;
+        margin-left: 300px;
+    }
+    menu li{
+        position: relative; 
+    }
+    #menu li a{
+        color:rgb(10, 1, 12); /*cor do texto do menu*/
+        text-decoration: none;
+        padding: 5px 10px;
+        display: block; /*opções do menu bloqueados na posiçãoa atual*/
+    }
+    #menu li a:hover{
+        background: #c32da2; 
+        color: #8d1c6e;
+        text-shadow: 0px 0px 5px #fff;
+    }
+    #menu li ul{
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: rgb(161, 99, 164);
+        display: none;
+    }
+    menu li:hover ul, #menu li.over ul{
+        display: block; /*durante o efeito não moverá o menu*/
+    }
+    header, #menu, #menu ul{
+        background-color:#e26bc8;
+        display: flex;
+        align-items: center;
+    }
+    
+
+    .tabela img{ /*verificar se está certo*/
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        padding-left: 20px;
+    }
+
+    .tabela h3{
+        color: rgb(236, 21, 207);
+        margin: 0 auto;
+        padding-bottom: 30px;
+        text-align: center;
+        
+    }
+
+    /*PERGUNTAS*/
+    /*como centralizar o cabeçalho*/
+    /*como subir um pouco o rodápe*/
+
+    .tabela{
+        text-align: center;
+        width: 200px;
+        margin-left: 225px;
+        text-align: center;
+    }
+
+    .contatos{
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        padding-left: 20px;
+
+    }
+    .rodape{
+        display: grid; /*validado que o estilo de layout será GRID*/
+        grid-template-columns: repeat(2, 1fr); /*número de colunas que será dividido o grid*/
+        gap: 500px; /*espço entre linhas e colunas*/
+        padding: 5px; /*espaçamento entre itens*/
+        margin-top: 30px; /*espaçamento entre o topo da tela*/
+    }
+
+    .item{
+        background-color: #e26bc8;
+        text-align: justify;
+        color: black;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .item h1{
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 25px;
+        font-size: 25px;
+    }
+
+    .item img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .item p{
+        margin: 0 auto;
+        padding-top: 90px;
+        text-align: center;
+    }
+
+    .footer2{
+        margin-top: 100px;
+        margin-bottom: 0em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+        border-color: rgb(255, 4, 242);
+        display: flex;
+        text-align: center;
+        background-color:#e26bc8;
+    }
+
+    .contatos h3{
+        color:rgb(8, 2, 9);
+
+    }
+
+    .contatos img{
+        width: 300px;
+        height: 300px;
+        padding: 10px; 
+    }
